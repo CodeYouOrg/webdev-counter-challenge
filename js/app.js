@@ -1,4 +1,4 @@
-"using strict";
+"use strict";
 
 let count = 0;
 
@@ -9,20 +9,17 @@ const decrementBtn = document.querySelector(".decrement-btn");
 
 
 function incrementCount() {
-    // Write the relevant code in this block
-
+    count ++; //increase count by 1
 }
 
 
 function decrementCount() {
-    // Write the relevant code in this block
-
+    count --; //decrease count by 1
 }
 
 
 function resetCount() {
-    // Write the relevant code in this block
-    
+    count = 0; //reset counter to 0
 }
 
 function renderUpdatedCount() {
