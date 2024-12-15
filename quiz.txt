@@ -1,5 +1,13 @@
 1. Why do you use "using strict" at the top of your JS files?
+It helps write cleaneer code and catch mistakes faster.
+
 2. What does line 3 mean?
+It sets the initial count to zero
+
 3. What is happening on lines 5-8 and why?
+Creates variables , then goes to teh HTML code and looks for an element with the same
+ class as stated.  It then stores them in the variables.
+
 4. If you implemented the functionality of the buttons,
    why do you think I wrote the JS code the way I did?
+   I don't really know...Maybe for readability?

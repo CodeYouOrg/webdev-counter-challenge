@@ -9,12 +9,12 @@ const decrementBtn = document.querySelector(".decrement-btn");
 
 
 function incrementCount() {
-    count ++; //increase count by 1
+    ++ count; //increase count by 1
 }
 
 
 function decrementCount() {
-    count --; //decrease count by 1
+    -- count; //decrease count by 1
 }
 
 
@@ -27,32 +27,19 @@ function renderUpdatedCount() {
 }
 
 incrementBtn.addEventListener("click", function () {
-    // Write code below this line
-
-
-
-    // STOP HERE
-
+    ++ count;
 
     renderUpdatedCount();
 });
 
 resetBtn.addEventListener("click", function () {
-    // Write code below this line
-    
-
-    // STOP HERE
-    
+    count = 0;
     
     renderUpdatedCount();
 });
 
 decrementBtn.addEventListener("click", function () {
-    // Write code below this line
-
-
-    // STOP HERE
-
+    --count;
 
     renderUpdatedCount();
 });
